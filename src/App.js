@@ -18,9 +18,7 @@ function App() {
                         <a href="/" className="item">
                             Home
                         </a>
-                        <a href="/addtext" className="item">
-                            Add Text
-                        </a>
+
                         </div>
                 </header>
 

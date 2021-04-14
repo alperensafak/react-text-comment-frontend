@@ -16,7 +16,14 @@ const Texts = () => {
 
     return (
         <div className="ui relaxed divided list">
+            <div style={{
+              display:"flex",
+                justifyContent:"flex-end"
+            }}>
+            <Link to ="/addtext" className="ui primary button">Add Text</Link>
+            </div>
         {
+
             posts.map((item) => {
                 return (
                     <div className="item" key={item.id}>
