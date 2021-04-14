@@ -1,5 +1,5 @@
 import React from "react"
-import {BrowserRouter as Router, Link, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route} from "react-router-dom";
 import Texts from "./components/Texts"
 import TextContent from "./components/TextContent";
 import AddText from "./components/AddText";
@@ -15,11 +15,11 @@ function App() {
                 <header>
 
                     <div className="ui secondary pointing menu">
-                        <a href="/" className="item active">
+                        <a href="/" className="item">
                             Home
                         </a>
                         <a href="/addtext" className="item">
-                            addtext
+                            Add Text
                         </a>
                         </div>
                 </header>
